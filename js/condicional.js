@@ -36,7 +36,7 @@ document.getElementById('confirm').addEventListener("click",
 
 document.getElementById("lista_fruta").addEventListener("change",
     function(){
-        let fruta = document.getElementById("lista_frutas").value
+        let fruta = document.getElementById("lista_fruta").value
 
         switch(fruta){
             case "Banana":
