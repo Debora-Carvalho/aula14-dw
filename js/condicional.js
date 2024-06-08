@@ -16,5 +16,19 @@ document.getElementById('confirm').addEventListener("click",
         }else {
             alert(v1+" "+v2)
         }
+
+        //verificando conteúdo e tipagem
+        if (v1 === "1"){
+            alert ("é texto")
+        }else if (v1 === 1){
+            alert ("é número")
+        }
+
+        //verificando conteúdo e tipagem
+        if (v1 == "1"){
+            alert ("é texto")
+        }else if (v1 == 1){
+            alert ("é número")
+        }       
     }
 )
