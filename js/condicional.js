@@ -32,3 +32,28 @@ document.getElementById('confirm').addEventListener("click",
         }       
     }
 )
+
+
+document.getElementById("lista_fruta").addEventListener("change",
+    function(){
+        let fruta = document.getElementById("lista_frutas").value
+
+        switch(fruta){
+            case "Banana":
+                alert ("Você escolheu a Banana 1kg - R$ 10,00")
+                break;
+            case "Laranja":
+                alert ("Você escolheu a Laranja 1kg - R$ 7,00")
+                break;
+            case "Uva":
+                alert ("Você escolheu a Laranja 1kg - R$ 20,00")
+                break;
+            case "Melância":
+                alert ("Você escolheu a Melância 1kg - R$ 50,00")
+                break;
+            default:
+                alert("Nenhuma fruta selecionada")
+                break;
+        }
+    }
+)
